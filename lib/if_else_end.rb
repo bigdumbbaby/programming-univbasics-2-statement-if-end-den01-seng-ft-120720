@@ -1,5 +1,9 @@
 # Write your solution here
 
-def run_code_inside()
   puts "Code before if...end"
-end
+  
+  if Time.now % 2 == 0 
+    puts "Even!"
+  else
+    puts "Odd!"
+  end
